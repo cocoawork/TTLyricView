@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2810BC01F983E98001C734F /* TTLyricViewAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2810BBF1F983E98001C734F /* TTLyricViewAppDelegate.m */; };
+		D2810BC31F983E98001C734F /* TTLyricViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2810BC21F983E98001C734F /* TTLyricViewController.m */; };
+		D2810BC61F983E98001C734F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2810BC41F983E98001C734F /* Main.storyboard */; };
+		D2810BC81F983E98001C734F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2810BC71F983E98001C734F /* Assets.xcassets */; };
+		D2810BCB1F983E98001C734F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2810BC91F983E98001C734F /* LaunchScreen.storyboard */; };
+		D2810BCE1F983E98001C734F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2810BCD1F983E98001C734F /* main.m */; };
+		D2810BD61F983FF5001C734F /* 2079147.lrc in Resources */ = {isa = PBXBuildFile; fileRef = D2810BD41F983FE9001C734F /* 2079147.lrc */; };
+		D2810BD71F983FF9001C734F /* 3443588.lrc in Resources */ = {isa = PBXBuildFile; fileRef = D2810BD51F983FF1001C734F /* 3443588.lrc */; };
+		D2810BDA1F98401E001C734F /* TTLyricFile.m in Sources */ = {isa = PBXBuildFile; fileRef = D2810BD91F98401E001C734F /* TTLyricFile.m */; };
+		D2C053091F987E7700AE655E /* TTLyricView.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C053081F987E7700AE655E /* TTLyricView.m */; };
+		D2C0530D1F998FA700AE655E /* TTLyricRow.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C0530C1F998FA700AE655E /* TTLyricRow.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D2810BBB1F983E98001C734F /* TTLyricView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTLyricView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2810BBE1F983E98001C734F /* TTLyricViewAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTLyricViewAppDelegate.h; sourceTree = "<group>"; };
+		D2810BBF1F983E98001C734F /* TTLyricViewAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTLyricViewAppDelegate.m; sourceTree = "<group>"; };
+		D2810BC11F983E98001C734F /* TTLyricViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTLyricViewController.h; sourceTree = "<group>"; };
+		D2810BC21F983E98001C734F /* TTLyricViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTLyricViewController.m; sourceTree = "<group>"; };
+		D2810BC51F983E98001C734F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D2810BC71F983E98001C734F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2810BCA1F983E98001C734F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D2810BCC1F983E98001C734F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2810BCD1F983E98001C734F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D2810BD41F983FE9001C734F /* 2079147.lrc */ = {isa = PBXFileReference; lastKnownFileType = text; path = 2079147.lrc; sourceTree = "<group>"; };
+		D2810BD51F983FF1001C734F /* 3443588.lrc */ = {isa = PBXFileReference; lastKnownFileType = text; path = 3443588.lrc; sourceTree = "<group>"; };
+		D2810BD81F98401E001C734F /* TTLyricFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTLyricFile.h; sourceTree = "<group>"; };
+		D2810BD91F98401E001C734F /* TTLyricFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTLyricFile.m; sourceTree = "<group>"; };
+		D2C053071F987E7700AE655E /* TTLyricView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTLyricView.h; sourceTree = "<group>"; };
+		D2C053081F987E7700AE655E /* TTLyricView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTLyricView.m; sourceTree = "<group>"; };
+		D2C0530B1F998FA700AE655E /* TTLyricRow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTLyricRow.h; sourceTree = "<group>"; };
+		D2C0530C1F998FA700AE655E /* TTLyricRow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTLyricRow.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2810BB81F983E98001C734F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2810BB21F983E98001C734F = {
+			isa = PBXGroup;
+			children = (
+				D2810BBD1F983E98001C734F /* TTLyricView */,
+				D2810BBC1F983E98001C734F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2810BBC1F983E98001C734F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2810BBB1F983E98001C734F /* TTLyricView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2810BBD1F983E98001C734F /* TTLyricView */ = {
+			isa = PBXGroup;
+			children = (
+				D2C0530A1F989F3500AE655E /* TTLyricView */,
+				D2810BD41F983FE9001C734F /* 2079147.lrc */,
+				D2810BD51F983FF1001C734F /* 3443588.lrc */,
+				D2810BBE1F983E98001C734F /* TTLyricViewAppDelegate.h */,
+				D2810BBF1F983E98001C734F /* TTLyricViewAppDelegate.m */,
+				D2810BC11F983E98001C734F /* TTLyricViewController.h */,
+				D2810BC21F983E98001C734F /* TTLyricViewController.m */,
+				D2810BC41F983E98001C734F /* Main.storyboard */,
+				D2810BC71F983E98001C734F /* Assets.xcassets */,
+				D2810BC91F983E98001C734F /* LaunchScreen.storyboard */,
+				D2810BCC1F983E98001C734F /* Info.plist */,
+				D2810BCD1F983E98001C734F /* main.m */,
+			);
+			path = TTLyricView;
+			sourceTree = "<group>";
+		};
+		D2C0530A1F989F3500AE655E /* TTLyricView */ = {
+			isa = PBXGroup;
+			children = (
+				D2810BD81F98401E001C734F /* TTLyricFile.h */,
+				D2810BD91F98401E001C734F /* TTLyricFile.m */,
+				D2C053071F987E7700AE655E /* TTLyricView.h */,
+				D2C053081F987E7700AE655E /* TTLyricView.m */,
+				D2C0530B1F998FA700AE655E /* TTLyricRow.h */,
+				D2C0530C1F998FA700AE655E /* TTLyricRow.m */,
+			);
+			path = TTLyricView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2810BBA1F983E98001C734F /* TTLyricView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2810BD11F983E98001C734F /* Build configuration list for PBXNativeTarget "TTLyricView" */;
+			buildPhases = (
+				D2810BB71F983E98001C734F /* Sources */,
+				D2810BB81F983E98001C734F /* Frameworks */,
+				D2810BB91F983E98001C734F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTLyricView;
+			productName = TTLyricView;
+			productReference = D2810BBB1F983E98001C734F /* TTLyricView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2810BB31F983E98001C734F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = cocoawork;
+				TargetAttributes = {
+					D2810BBA1F983E98001C734F = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D2810BB61F983E98001C734F /* Build configuration list for PBXProject "TTLyricView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2810BB21F983E98001C734F;
+			productRefGroup = D2810BBC1F983E98001C734F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2810BBA1F983E98001C734F /* TTLyricView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2810BB91F983E98001C734F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2810BD61F983FF5001C734F /* 2079147.lrc in Resources */,
+				D2810BCB1F983E98001C734F /* LaunchScreen.storyboard in Resources */,
+				D2810BD71F983FF9001C734F /* 3443588.lrc in Resources */,
+				D2810BC81F983E98001C734F /* Assets.xcassets in Resources */,
+				D2810BC61F983E98001C734F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2810BB71F983E98001C734F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2810BC31F983E98001C734F /* TTLyricViewController.m in Sources */,
+				D2810BCE1F983E98001C734F /* main.m in Sources */,
+				D2810BDA1F98401E001C734F /* TTLyricFile.m in Sources */,
+				D2C053091F987E7700AE655E /* TTLyricView.m in Sources */,
+				D2C0530D1F998FA700AE655E /* TTLyricRow.m in Sources */,
+				D2810BC01F983E98001C734F /* TTLyricViewAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D2810BC41F983E98001C734F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2810BC51F983E98001C734F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D2810BC91F983E98001C734F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2810BCA1F983E98001C734F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2810BCF1F983E98001C734F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D2810BD01F983E98001C734F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2810BD21F983E98001C734F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HWJL6884RF;
+				INFOPLIST_FILE = TTLyricView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.secary.TTLyricView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D2810BD31F983E98001C734F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HWJL6884RF;
+				INFOPLIST_FILE = TTLyricView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.secary.TTLyricView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2810BB61F983E98001C734F /* Build configuration list for PBXProject "TTLyricView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2810BCF1F983E98001C734F /* Debug */,
+				D2810BD01F983E98001C734F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2810BD11F983E98001C734F /* Build configuration list for PBXNativeTarget "TTLyricView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2810BD21F983E98001C734F /* Debug */,
+				D2810BD31F983E98001C734F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2810BB31F983E98001C734F /* Project object */;
+}
