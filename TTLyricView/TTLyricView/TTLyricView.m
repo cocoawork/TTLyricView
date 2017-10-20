@@ -38,7 +38,9 @@
     _tableView.rowHeight = 40;
     [self addSubview:_tableView];
     [_tableView setScrollEnabled:NO];
-    [_tableView setContentInset:UIEdgeInsetsMake((self.bounds.size.height) / 2, 0, 0, 0)];
+    [_tableView setShowsVerticalScrollIndicator:NO];
+    [_tableView setContentInset:UIEdgeInsetsMake((_tableView.bounds.size.height) / 2, 0, (_tableView.bounds.size.height) / 2, 0)];
+
 }
 
 
@@ -60,12 +62,6 @@
         NSIndexPath *indexPath = [NSIndexPath indexPathForRow:idx inSection:0];
         [_tableView selectRowAtIndexPath:indexPath animated:YES scrollPosition:(UITableViewScrollPositionMiddle)];
         [_tableView scrollToRowAtIndexPath:indexPath atScrollPosition:(UITableViewScrollPositionTop) animated:YES];
-        NSLog(@"%@", NSStringFromUIEdgeInsets(_tableView.contentInset));
-        if (([_lyricFile lyricContents].count - idx - 1) * [_tableView rowHeight] <= _tableView.frame.size.height / 2) {
-            _cotentOffsetY -= [_tableView rowHeight];
-            UIEdgeInsets inset = UIEdgeInsetsMake(_cotentOffsetY, 0, 0, 0);
-            _tableView.contentInset = inset;
-        }
     }
     _currentIndex = idx;
 
@@ -96,10 +92,8 @@
 
 #pragma mark - UITableViewDelegate
 
-- (void)tableView:(UITableView *)tableView didDeselectRowAtIndexPath:(nonnull NSIndexPath *)indexPath {
-    if (indexPath.row == [_lyricFile lyricContents].count - 1) {
-        
-    }
+- (BOOL)tableView:(UITableView *)tableView shouldHighlightRowAtIndexPath:(NSIndexPath *)indexPath {
+    return NO;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
