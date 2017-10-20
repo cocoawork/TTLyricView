@@ -72,7 +72,7 @@
                     NSString *second = [timeComponent2 firstObject];
                     NSString *miscroSecond = [timeComponent2 lastObject];
                     //将时间转换为微秒
-                    NSInteger time = [minute integerValue] * 60 * 100 + [second integerValue] * 100 + [miscroSecond integerValue];
+                    long time = [minute integerValue] * 60 * 100 + [second integerValue] * 100 + [miscroSecond integerValue];
                     timeStamp = [NSString stringWithFormat:@"%ld", time];
                     lyric = [keyValues lastObject];
                 }
@@ -107,7 +107,7 @@
 
 
 - (NSInteger)lyricIndexForCurrentDuration:(NSInteger)duration {
-    NSInteger currentTime = 0;
+    long currentTime = 0;
     for (int i = 0; i < [_stamps count]; i++) {
         NSInteger time = [_stamps[i] integerValue];
         if (duration < time) {
@@ -120,7 +120,7 @@
 }
 
 - (NSString *)lyricForMicrosecond:(double)microsecond {
-    NSInteger currentTime = 0;
+    long currentTime = 0;
     for (int i = 0; i < [_stamps count]; i++) {
         NSInteger time = [_stamps[i] integerValue];
         if (microsecond < time) {
